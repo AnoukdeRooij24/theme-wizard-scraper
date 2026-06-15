@@ -1,0 +1,17 @@
+{
+  "name": "theme-wizard-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:scraper": "theme-wizard-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.32.1",
+  "dependencies": {
+    "@nl-design-system-community/theme-wizard-server": "^1.2.4"
+  }
+}
