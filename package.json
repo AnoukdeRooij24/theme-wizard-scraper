@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:scraper": "theme-wizard-server",
+    "start": "theme-wizard-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
