@@ -2,11 +2,9 @@
   "name": "theme-wizard-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "start": "node dist/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build"
+      "dev": "theme-wizard-server",
+      "start": "theme-wizard-server"  
   },
   "keywords": [],
   "author": "",
