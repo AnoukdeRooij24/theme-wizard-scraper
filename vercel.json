@@ -7,9 +7,12 @@
     "relatedProjects": ["prj_p6jcXVsbGmGZPyHs1xQd0HM5GBKR", "prj_Za6891dt4FYZagkKyWW0so4zY9Xy"],
     "builds": [
     {
-      "src": "api/index.mjs",
+      "src": "api/index.js",
       "use": "@vercel/node"
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.js" }
   ],
     "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
 }
