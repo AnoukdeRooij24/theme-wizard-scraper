@@ -2,6 +2,7 @@
   "name": "theme-wizard-scraper",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "dev": "theme-wizard-server",
     "build": "echo 'No build needed'",
