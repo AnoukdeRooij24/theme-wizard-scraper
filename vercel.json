@@ -4,5 +4,6 @@
     "framework": "hono",
     "installCommand": "pnpm install --frozen-lockfile --force",
     "outputDirectory": "dist/",
-    "relatedProjects": ["prj_p6jcXVsbGmGZPyHs1xQd0HM5GBKR", "prj_Za6891dt4FYZagkKyWW0so4zY9Xy"]
+    "relatedProjects": ["prj_p6jcXVsbGmGZPyHs1xQd0HM5GBKR", "prj_Za6891dt4FYZagkKyWW0so4zY9Xy"],
+    "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
 }

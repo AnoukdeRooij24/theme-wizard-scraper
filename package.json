@@ -4,18 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "theme-wizard-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.32.1",
   "dependencies": {
+    "@hono/swagger-ui": "^0.6.1",
+    "@hono/zod-openapi": "^1.4.0",
+    "@nl-design-system-community/css-scraper": "^1.2.1",
     "@nl-design-system-community/theme-wizard-server": "^1.2.4",
     "@types/node": "^25.9.3",
+    "@vercel/related-projects": "^1.1.0",
     "node": "^26.3.0",
-    "vercel": "^54.14.0",
+    "vercel": "link:@hono/node-server/vercel",
     "vite": "^8.0.16"
   }
 }
