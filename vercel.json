@@ -5,13 +5,5 @@
     "installCommand": "pnpm install --frozen-lockfile --force",
     "outputDirectory": "dist/",
     "relatedProjects": ["prj_p6jcXVsbGmGZPyHs1xQd0HM5GBKR", "prj_Za6891dt4FYZagkKyWW0so4zY9Xy"],
-    "builds": [
-        {
-        "src": "node_modules/@nl-design-system-community/theme-wizard-server/dist/server.js",
-        "use": "@vercel/node"
-        }
-    ],
-    "routes": [
-        { "src": "/(.*)", "dest": "/node_modules/@nl-design-system-community/theme-wizard-server/dist/server.js" }
-    ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
 }
