@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "theme-wizard-server",
+    "build": "echo 'No build needed'",
     "start": "theme-wizard-server"
   },
   "keywords": [],
